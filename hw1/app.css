@@ -1,0 +1,58 @@
+body {
+  /* background-color: #310808e0; */
+  background-image: url("res/background\ pic-13.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+#logo, #text, #button, #newpage {
+  position: relative;
+  /* max-width: 40vw; */
+  width: 100%;
+}
+
+#logo img {
+  display: block;
+  margin: 120px auto 0px;
+  width: 250px;
+}
+
+#text {
+  display: block;
+  margin: 0 auto 12em;
+}
+
+#button {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  justify-items: center;
+  margin: 0;
+}
+
+.feather {
+  height: 50px;
+}
+
+#enter { 
+  margin: auto 0;
+  height: 50px;
+}
+
+#newpage {
+  position: relative;
+}
+
+#content {
+  display: block;
+  margin: auto;
+  width: 98vw;
+}
+
+h1, h3{
+  color: rgb(197, 187, 173);
+  text-align: center;
+  line-height: 1em;
+}
