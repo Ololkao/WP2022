@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(66, 33, 11);
+  /* background-image: url("res/background\ pic-13.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  margin: 0;
+}
+
+#brand, #text, #button, #newpage {
+  position: relative;
+  /* max-width: 40vw; */
+  width: 100%;
+}
+
+#brand {
+  display: block;
+  margin-top: 14%;
+  margin-bottom: 11%;
+}
+
+@keyframes owl {
+  0% {background-image: url("res/Logo/logo-07.png");}
+  25% {background-image: url("res/Logo/logo-06.png");}
+  50% {background-image: url("res/Logo/logo-05.png");}
+  75% {background-image: url("res/Logo/logo-06.png");}
+  100% {background-image: url("res/Logo/logo-07.png");}
+}
+
+.logo {
+  background: url("res/Logo/logo-07.png") no-repeat center / cover;
+  display: block;
+  width: 266px;
+  height: 199px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo:hover {
+  animation: owl 1.5s ease 0s infinite normal forwards;
+}
+
+.text {
+  background: url("res_new/title.png");
+  display: block;
+  width: 266px;
+  height: 128px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+i.feather, i.enter {
+  background-position: center;
+  display: inline-block;
+  height: 53px;
+  /* position is a must for javascript/jquery */
+  position: relative;
+}
+
+i.feather {
+  background-image: url("res_new/feather.png");
+  background-size: cover;
+  width: 48.5px;
+  margin-left: 45%;
+}
+
+i.enter {
+  background-image: url("res_new/enter-white.png");
+  background-size: cover;
+  width: 115px;
+}
+
+#newpage {
+  position: relative;
+}
+
+#content {
+  display: block;
+  margin: auto;
+  width: 98vw;
+}
